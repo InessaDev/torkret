@@ -1,0 +1,88 @@
+
+
+.header {
+    background-color: white;
+    padding: 0 5%;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.header__nav {
+    flex-direction: row;
+    
+}
+
+.title {
+    text-decoration: none;
+}
+
+.nav__list {
+    margin: ;
+}
+
+
+.about__title {
+    background-color: white;
+    font-family: "Roboto";
+    color: #4c5866;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0 2%;
+}
+
+.about__text{
+    max-width: 350px;
+    font-size: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    color: #85859b;
+    padding: 0 5%;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: row;
+    background-color:  #ebebeb;
+    padding: 0 5%;
+}
+
+.about__picture {
+    width: 1200px;
+    height: 600px;
+    background-image: url(assets/vse_torkretki.jpg);
+}
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 0 5%;
+}
+
+.card {
+    margin: 5%;
+}
+
+.card__pic {
+    height: 500px;
+   
+    background-image: url(assets/example.png);
+    background-position: center
+}
+
+.footer__nav {
+    display: flex;
+    justify-content: center;
+    background-color:  #4c5866
+}
+
+.footer__nav-el {
+    margin: 0 1%;
+    color: #ebebeb;
+}
