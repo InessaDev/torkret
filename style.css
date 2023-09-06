@@ -1,8 +1,9 @@
 
 
 .header {
-    background-color: white;
-    padding: 0 5%;
+    background-color: #ebebeb;
+    padding: 1ch 5%;
+
 }
 
 .nav__list {
@@ -12,11 +13,14 @@
 }
 .header__nav {
     flex-direction: row;
-    
+    margin: 0 5%;
+    font-size: 3ch;
 }
 
 .title {
     text-decoration: none;
+    font-family: "Roboto";
+    color: #85859b;
 }
 
 .nav__list {
@@ -32,12 +36,15 @@
     font-style: normal;
     font-weight: 400;
     line-height: 100%;
-    margin: 0 2%;
+    margin:  2%;
+    max-width: 35%;
+
 }
 
 .about__text{
-    max-width: 350px;
-    font-size: 18px;
+    background-color:  #ebebeb;
+    max-width: 90%;
+    font-size: 5ch;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
@@ -49,7 +56,6 @@
 .about__content {
     display: flex;
     flex-direction: row;
-    background-color:  #ebebeb;
     padding: 0 5%;
 }
 
@@ -80,9 +86,11 @@
     display: flex;
     justify-content: center;
     background-color:  #4c5866
+    
 }
 
 .footer__nav-el {
     margin: 0 1%;
     color: #ebebeb;
+    font-size: 5vw ;
 }
