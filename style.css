@@ -23,10 +23,6 @@
     color: #85859b;
 }
 
-.nav__list {
-    margin: ;
-}
-
 
 .about__title {
     background-color: white;
@@ -44,13 +40,14 @@
 .about__text{
     background-color:  #ebebeb;
     max-width: 90%;
-    font-size: 5ch;
+    font-size: 4ch;
     font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     line-height: 170%;
     color: #85859b;
     padding: 0 5%;
+    text-align: justify; 
 }
 
 .about__content {
@@ -66,7 +63,7 @@
 }
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 1fr);
     padding: 0 5%;
 }
@@ -76,10 +73,29 @@
 }
 
 .card__pic {
-    height: 500px;
-   
-    background-image: url(assets/example.png);
-    background-position: center
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.card__pic1 {
+    background-image: url(assets/as-1.png);
+}
+
+.card__pic2 {
+    background-image: url(assets/co-154.jpg);
+}
+.card__pic3 {
+    background-image: url(assets);
+}
+.card__pic4 {
+    background-image: url(assets/t103.png);
+}
+.card__pic5 {
+    background-image: url(assets/mash1.jpg);
+}
+.card__pic6 {
+    background-image: url(assets/pitz.jpg);
 }
 
 .footer__nav {
@@ -92,5 +108,10 @@
 .footer__nav-el {
     margin: 0 1%;
     color: #ebebeb;
-    font-size: 5vw ;
+    font-size: 3vw ;
+}
+
+.tel {
+    text-decoration: none;
+    color: #ebebeb;
 }
